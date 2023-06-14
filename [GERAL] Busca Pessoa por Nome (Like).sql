@@ -1,0 +1,26 @@
+SELECT `name`, email, id, tx_id FROM people 
+WHERE NAME LIKE 'LW AGROPECUARIA E INDUSTRIAL%'
+/*WHERE 
+	(email IS NOT NULL)
+	AND email NOT LIKE '%gmail%' 
+	AND email NOT LIKE '%hotmail%' 
+	AND email NOT LIKE '%outlook%' 
+	and email NOT LIKE '%yahoo%'
+	AND email NOT LIKE '%icloud%'
+	AND email NOT LIKE '%bol%'
+	AND email NOT LIKE '%semdominio%'
+	and email NOT LIKE '%infolink%' 
+	and email NOT LIKE '%syntesis%'
+	and email NOT LIKE '%globo%' 
+	and email NOT LIKE '%uol%'
+	and email NOT LIKE '%ig%'
+	and email NOT LIKE '%terra%'
+	and email NOT LIKE '%teste%'
+	and email NOT LIKE '%live%' 
+	and email NOT LIKE '%construtoramanhattan%' 
+	and email NOT LIKE '%maiamelo%' 
+	and email NOT LIKE '%novarecontabilidade%' 
+	and email NOT LIKE '%solangealmeida%' 
+	and email NOT LIKE '%profectum%' 
+	and email NOT LIKE '%oi%'
+	*/
